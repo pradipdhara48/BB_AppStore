@@ -44,7 +44,29 @@
         .ima{
             margin: -80px;
         }
-       
+       .sorry{
+            width: 225px;
+        }
+        .apologize {
+        position: relative;
+        font-family: Impact, sans-serif;
+        font-size: 25px;
+        letter-spacing: 1px;
+        background: linear-gradient(90deg, #0981d1, #6272e4, #0981d1);
+        background-repeat: no-repeat;
+        background-size: 87%;
+        animation: animate 8s infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(131, 10, 10, 0);
+      }
+      @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+      }
 
     </style>
 </head>
@@ -55,5 +77,8 @@
     <p>We hope you will be with us. Thank you so much for your support.</p>
     <p>Visit our web page to order</p>
     <a href="https://bongobite.com/"><button class="button button1">Click hare</button></a>
+    <br>
+    <img class="sorry" src="forgive-removebg-preview.png" alt="Sorry">
+    <p class="apologize">We apologize for this inconvenience.</p>
 </body>
 </html>
